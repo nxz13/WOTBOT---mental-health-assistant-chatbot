@@ -187,7 +187,6 @@ def main():
             user = input("You: ").strip()
             if user.lower() in {"exit","quit","bye","reset"}:
                 print("WOTBOT : Take care! ")
-                
                 break
             context, course = retrieve_context_course(user, collection, embedder)
             tone = simple_sentiment(user)
