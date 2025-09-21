@@ -195,7 +195,7 @@ def main():
             end_time = time.time()
             response_time = end_time - start_time
             
-            print(f"\nWOTBOT 🤖: {format_reply(reply)}\n")
+            print(f"\nWOTBOT : {format_reply(reply)}\n")
             print(f"Response time: {response_time:.2f}s")
             
 
